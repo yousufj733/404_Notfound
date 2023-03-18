@@ -1,0 +1,39 @@
+
+/* ##########################   Media Queries  (Mobile)
+############################*/
+@media  screen and (max-width:600px)
+
+{
+
+    .container
+    {
+        width: 91%;
+    }
+
+.main__container
+{
+    grid-template-columns: 1fr ; 
+}
+
+.main__text h1 
+{
+width: 350px;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+}
+.main__image 
+{
+    align-items: center;
+}
+.main__image img {
+    width: 386px;
+   
+}
+footer p{
+    
+margin-bottom:15px;
+
+}
+
+}

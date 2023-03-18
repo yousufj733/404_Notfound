@@ -10,20 +10,17 @@
 body
 {
    background: #FFFFFF;
-   height: 200vh;
+   height: auto!important;
 }
 
 .container
 {
     width: 1440px;
     margin: 0 auto;
-    height: auto;
 }
 
-.header__container
-{
-    margin-top: 2.5rem;
-}
+
+
 .logo
 {
    
@@ -37,6 +34,10 @@ color: #333333;
 font-family:'Inconsolata';
 }
 
+.header__container
+{
+    margin-top: 2.5rem;
+}
 
 
 .main__container
@@ -44,6 +45,7 @@ font-family:'Inconsolata';
     margin-top:143px ;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }
 .main__image img {
     width: 539px;
@@ -60,9 +62,6 @@ font-family:'Inconsolata';
     line-height: 95px;
     letter-spacing: -0.035em;
     width: 586px;
-    height: 190px;
-    /* Gray 1 */
-    
     color: #333333;
 }
 
@@ -99,19 +98,28 @@ color: #FFFFFF;
 
 
 
+
+/* Footer CSS  */
+
 footer
 {
     text-align: center;
+    
 }
 
 
 footer p{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+margin-top:400px;
+}
 
-text-align: center;
-color: #BDBDBD;
+footer strong 
+{
+    text-decoration: underline;
 }
